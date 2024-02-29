@@ -1,0 +1,39 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#color_changer {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#colorChange{
+    margin-top: 20px;
+}
+#shapeChange{
+    margin-top: 10px;
+}
+.triangle{
+    background-color: transparent;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
+.square{
+    background-color: white;
+    position: relative;
+    width: 75px;
+    height: 75px;
+
+}
